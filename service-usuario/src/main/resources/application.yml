@@ -1,0 +1,16 @@
+server:
+  port: 9001
+  contextPath: /usuario
+endpoints:
+  shutdown:
+    enabled: true
+  restart:
+    enabled: true
+spring:
+  config:
+    name: service-usuario
+  application:
+    name: service-usuario
+management:
+  security:
+    enabled: false
