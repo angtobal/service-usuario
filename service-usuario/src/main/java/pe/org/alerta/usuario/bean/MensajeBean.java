@@ -1,6 +1,7 @@
 package pe.org.alerta.usuario.bean;
 
-public class MensajeBean {
+@Deprecated
+public class MensajeBean{
 
 	private int tipo;
 	private String text;

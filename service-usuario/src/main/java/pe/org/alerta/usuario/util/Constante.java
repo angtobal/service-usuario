@@ -3,6 +3,7 @@ package pe.org.alerta.usuario.util;
 public interface Constante {
 	public static int MSG_SUCCESS = 0;
 	public static int MSG_ERROR = 1;
+	
 	public static String CLOSE_CONNECTION_MESSAGE = "Connection has already been closed";
 	public static String CLOSE_CONNECTION_MESSAGE_NEW = "Tiempo de espera agotado.";
 	
